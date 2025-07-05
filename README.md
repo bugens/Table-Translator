@@ -59,9 +59,25 @@
 
 ## 🛠 使用方法
 
-### 1. 安装依赖
+### 1. 配置虚拟环境(可选）
 
 建议使用虚拟环境（venv）运行本工具。
+
+```bash
+# 进入目标目录（以/path/to/folder为例）
+cd /path/to/folder
+
+# 创建虚拟环境（环境目录名为venv）
+python -m venv venv  # 或 python3 -m venv venv
+
+# 激活环境
+# Linux/macOS:
+source venv/bin/activate
+# Windows:
+.\venv\Scripts\activate
+```
+
+### 2. 安装依赖
 
 ```bash
 pip install pandas openpyxl requests tqdm
