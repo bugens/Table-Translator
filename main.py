@@ -12,8 +12,7 @@ if not hasattr(sys, 'real_prefix') and not sys.prefix.endswith('venv'):
         print("自动切换到虚拟环境...")
         os.execv(venv_path, [venv_path] + sys.argv)
     else:
-        print("错误：未找到虚拟环境")
-        sys.exit(1)
+        print("未找到虚拟环境，将在全局环境中运行。")
 
 import argparse
 import json
