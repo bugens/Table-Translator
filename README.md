@@ -148,9 +148,7 @@ python translator.py -F data.xlsx -C 3 -S en -T zh -B 50 -R 5
 
 ## 🚀 未来计划
 
-- 暂无计划
+- 暂无
 
 ---
-
-如需帮助，请查看 `--help` 参数或联系技术支持。
 
